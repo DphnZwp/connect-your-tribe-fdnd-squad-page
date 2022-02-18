@@ -16,12 +16,13 @@ async function getData(){
 function printData(data){ 
 
     // console.log(data.data)
-    fetch_studenname.innerHTML += ` <select class="student-name" onchange= "getStudent(this.value)">
-                            <option>Search studenten bij name</option>
-                            ${data.data.map(student=> `<option>${student.name}</option>`)}
-                            
+    fetch_studenname.innerHTML += `
 
-                             </select>`
+     <select class="student-name" onchange= "getStudent(this.value)">
+       <option>Search studenten bij name</option>
+       ${data.data.map(student=> `<option>${student.name}</option>`)}
+
+     </select>`
 
 
 
