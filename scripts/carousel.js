@@ -1,4 +1,4 @@
-// slide show carousel
+// Slide show carousel
 const track = document.querySelector('.carousel')
 const slides = Array.from(track.children)
 const nextbtn = document.querySelector('.carousel__btn--right')
@@ -10,21 +10,21 @@ const setSlidePosition = (slide,index) => {
 }
 
 slides.forEach(setSlidePosition);
-// meaking one function to use it for two buttons
+// Making one function to use it for two buttons
 const moveToSlide = (track, currentSlide, targetSlide) => {
     track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
     currentSlide.classList.remove('current-slide');
     targetSlide.classList.add('current-slide')
     
 }
-// When click the left button
+// When you click the left button
  prevbtn.addEventListener('click', e =>{
     const currentSlide = track.querySelector('.current-slide')
     const prevSlide = currentSlide.previousElementSibling;
     moveToSlide(track, currentSlide,prevSlide);
  })
 
-// When click the right button
+// When you click the right button
 nextbtn.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide')
     const nextSlide = currentSlide.nextElementSibling;
