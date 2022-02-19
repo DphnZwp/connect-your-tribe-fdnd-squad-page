@@ -1,6 +1,6 @@
 const BaseUrl = 'https://tribe.api.fdnd.nl/v1/member'
 const header = document.querySelector('#header')
-const fetch_studentname = document.querySelector('#fetch_studentname')
+const fetch_studentname = document.querySelector('#fetch__studentname')
 getData()
 
 async function getData(){

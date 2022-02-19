@@ -1,8 +1,8 @@
 // slide show carousel
 const track = document.querySelector('.carousel')
 const slides = Array.from(track.children)
-const nextbtn = document.querySelector('.carousel_btn--right')
-const prevbtn =document.querySelector('.carousel_btn--left')
+const nextbtn = document.querySelector('.carousel__btn--right')
+const prevbtn =document.querySelector('.carousel__btn--left')
 const slideWidth = slides[0].getBoundingClientRect().width;
 const setSlidePosition = (slide,index) => {
     slide.style.left = slideWidth * index + 'px';
