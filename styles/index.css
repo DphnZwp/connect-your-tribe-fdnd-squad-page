@@ -10,7 +10,6 @@
     height: 200px;
     width: 300px;
     margin: 0 auto;
-
 }
 .carousel__img{
     height:200px;
@@ -64,4 +63,26 @@
 }
 .carousel__btn--right{
     right: -40px;
+}
+/* carousel-nav */
+.carousel__nav{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:center;
+    background-color:#58E8AB;
+    width: 300px;
+}
+
+.carousel__indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    background-color:rgba(0,0,0,.3);
+    margin:.3em;
+    cursor: pointer;
+
+}
+.carousel__indicator.current-slide{
+    background-color: rgba(0,0,0,1);
 }
