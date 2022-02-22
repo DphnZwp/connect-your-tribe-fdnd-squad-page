@@ -11,7 +11,7 @@
     width: 300px;
     margin: 0 auto;
 }
-.carousel_img{
+.carousel__img{
     height:200px;
     width: 300px;
     object-fit: cover;
@@ -19,7 +19,7 @@
 }
 
 /* article  */
-.carousel_track-container{
+.carousel__track-container{
     position: relative;
     background-color: #00ABE0;
     height: 100%;
@@ -41,7 +41,7 @@
     bottom: 0;
 }
 /* slide buttons */
-.carousel_btn{
+.carousel__btn{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -49,19 +49,19 @@
     border: 0;
     cursor: pointer;
 }
-.carousel_btn:hover,
-.carousel_btn:focus {
+.carousel__btn:hover,
+.carousel__btn:focus {
     background-color: rgba(0,0,0,.2);
 
 }
-.carousel_btn:focus{
+.carousel__btn:focus{
     outline: 1px solid black;
 }
 
-.carousel_btn--left{
+.carousel__btn--left{
     left: -40px;
 }
-.carousel_btn--right{
+.carousel__btn--right{
     right: -40px;
 }
 /* carousel-nav */

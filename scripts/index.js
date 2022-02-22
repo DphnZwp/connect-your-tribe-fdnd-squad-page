@@ -1,6 +1,6 @@
-const BaseUrl = "https://tribe.api.fdnd.nl/v1/member"
+const BaseUrl = 'https://tribe.api.fdnd.nl/v1/member'
 const header = document.querySelector('#header')
-const fetch_studenname = document.querySelector('#fetch_studenname')
+const fetch_studentname = document.querySelector('#fetch__studentname')
 getData()
 
 async function getData(){
@@ -17,17 +17,20 @@ function printData(data){
      <select class="student-name" onchange= "getStudent(this.value)">
        <option>Search studenten bij name</option>
        ${data.data.map(student=> `<option>${student.name}</option>`)}
-
      </select>`
 
+    printData(data)
 }
 
-   async function getStudent(name){
-     const response = await fetch(BaseUrl)
-     const data = await response.json()
-    //  console.log(data.data[0].memberId)
-    //  console.log(data.data[2].memberId)
-
-
+function printData(data){ 
+  fetch_studentname.innerHTML += `
+    <select class='student-name' onchange= 'getStudent(this.value)'>
+      <option>Zoek studenten bij name</option>
+      ${data.data.map(student=> `<option>${student.name}</option>`)}
+    </select>`
 }
 
+async function getStudent(name){
+  const response = await fetch(BaseUrl)
+  const data = await response.json()
+}

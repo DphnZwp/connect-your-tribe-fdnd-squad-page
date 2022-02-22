@@ -1,26 +1,20 @@
-// slide show carousel
+// Slide show carousel
 const track = document.querySelector('.carousel')
 const slides = Array.from(track.children)
 const nextbtn = document.querySelector('.carousel_btn--right')
 const prevbtn =document.querySelector('.carousel_btn--left')
 const dotsNav = document.querySelector('.carousel__nav')
 const dots = Array.from(dotsNav.children)
+const nextbtn = document.querySelector('.carousel__btn--right')
+const prevbtn =document.querySelector('.carousel__btn--left')
 const slideWidth = slides[0].getBoundingClientRect().width;
-// console.log(slideWidth)
-// arrange the slides next to one another
-// slides[0].style.left = slideWidth * 0 + 'px';
-// slides[1].style.left = slideWidth * 1 + 'px';
-// slides[2].style.left = slideWidth * 2 + 'px';
-// slides.forEach((slide,index) => {
-//     slide.style.left = slideWidth * index + 'px';
-// })
 const setSlidePosition = (slide,index) => {
     slide.style.left = slideWidth * index + 'px';
 
 }
 
 slides.forEach(setSlidePosition);
-// meaking one function to use it for two buttons
+// Making one function to use it for two buttons
 const moveToSlide = (track, currentSlide, targetSlide) => {
     track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
     currentSlide.classList.remove('current-slide');
@@ -36,6 +30,7 @@ const updateDots = (currentDot, targetDot) => {
 }
 
 // When click the left button
+// When you click the left button
  prevbtn.addEventListener('click', e =>{
     const currentSlide = track.querySelector('.current-slide')
     const prevSlide = currentSlide.previousElementSibling;
@@ -47,7 +42,7 @@ const updateDots = (currentDot, targetDot) => {
      updateDots(currentDot, prevtDot);
  })
 
-// When click the right button
+// When you click the right button
 nextbtn.addEventListener('click', e => {
 
     const currentSlide = track.querySelector('.current-slide')
@@ -87,4 +82,5 @@ dotsNav.addEventListener('click', e => {
     // targetDot.classList.add('current-slide');
 
 
+})
 })
