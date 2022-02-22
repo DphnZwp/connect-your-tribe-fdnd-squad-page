@@ -6,17 +6,13 @@ getData()
 async function getData(){
     const response = await fetch(BaseUrl)
     const data = await response.json()
-    // console.log(data)
-    
-    //  const filter = member.data.filter(x => x.memberId <(21) )
-    // console.log(filter)
     printData(data)   
 
 }
 function printData(data){ 
 
     // console.log(data.data)
-    fetch_studenname.innerHTML += `
+    fetch_studentName.innerHTML += `
 
      <select class="student-name" onchange= "getStudent(this.value)">
        <option>Search studenten bij name</option>
@@ -24,11 +20,6 @@ function printData(data){
 
      </select>`
 
-
-
-
-//     content.innerHTML += data.data[2].surname
-// 
 }
 
    async function getStudent(name){
