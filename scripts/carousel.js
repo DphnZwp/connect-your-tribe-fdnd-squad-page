@@ -1,9 +1,6 @@
-console.log('hallo');
 // Slide show carousel
 const track = document.querySelector('.carousel')
 const slides = Array.from(track.children)
-// const nextbtn = document.querySelector('.carousel_btn--right')
-// const prevbtn =document.querySelector('.carousel_btn--left')
 const dotsNav = document.querySelector('.carousel__nav')
 const dots = Array.from(dotsNav.children)
  const nextbtn = document.querySelector('.carousel__btn--right')
@@ -83,4 +80,4 @@ dotsNav.addEventListener('click', e => {
 
 
 })
-// })
+
