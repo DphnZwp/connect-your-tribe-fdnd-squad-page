@@ -1,18 +1,18 @@
+console.log('hallo');
 // Slide show carousel
 const track = document.querySelector('.carousel')
 const slides = Array.from(track.children)
-const nextbtn = document.querySelector('.carousel_btn--right')
-const prevbtn =document.querySelector('.carousel_btn--left')
+// const nextbtn = document.querySelector('.carousel_btn--right')
+// const prevbtn =document.querySelector('.carousel_btn--left')
 const dotsNav = document.querySelector('.carousel__nav')
 const dots = Array.from(dotsNav.children)
-const nextbtn = document.querySelector('.carousel__btn--right')
+ const nextbtn = document.querySelector('.carousel__btn--right')
 const prevbtn =document.querySelector('.carousel__btn--left')
 const slideWidth = slides[0].getBoundingClientRect().width;
 const setSlidePosition = (slide,index) => {
     slide.style.left = slideWidth * index + 'px';
 
 }
-
 slides.forEach(setSlidePosition);
 // Making one function to use it for two buttons
 const moveToSlide = (track, currentSlide, targetSlide) => {
@@ -38,7 +38,7 @@ const updateDots = (currentDot, targetDot) => {
 
     // this for de nav dowen
     const currentDot = dotsNav.querySelector('.current-slide')
-     const prevtDot = currentDot.previousElementSibling;
+    const prevtDot = currentDot.previousElementSibling;
      updateDots(currentDot, prevtDot);
  })
 
@@ -83,4 +83,4 @@ dotsNav.addEventListener('click', e => {
 
 
 })
-})
+// })

@@ -12,7 +12,7 @@ async function getData(){
 function printData(data){ 
 
     // console.log(data.data)
-    fetch_studentName.innerHTML += `
+    fetch_studentname.innerHTML += `
 
      <select class="student-name" onchange= "getStudent(this.value)">
        <option>Search studenten bij name</option>
@@ -34,3 +34,4 @@ async function getStudent(name){
   const response = await fetch(BaseUrl)
   const data = await response.json()
 }
+
