@@ -1,9 +1,10 @@
 :root {
 	--white: #ffffff;
 	--black: #000000;
-	--light-blue: #ededf9;
-	--blue: #cfd0f0;
-	--dark-blue: #2E3192;
+	--lighter-blue: #ededf9;
+	--light-blue: #cfd0f0;
+	--blue: #2E3192;
+	--dark-blue: #22246b;
 	--cyan: #2e928f;
 	--red: #852E2C;
 }
@@ -15,7 +16,7 @@
 
 body {
 	font-family: 'Akrobat Bold', sans-serif;
-	background-color: var(--light-blue);
+	background-color: var(--lighter-blue);
 }
 
 main {
@@ -160,12 +161,12 @@ a>img {
 /* SVG colors */
 .st0 {fill: var(--red);}
 
-.st2 {fill: var(--dark-blue);}
+.st2 {fill: var(--blue);}
 
 .st3 {fill: var(--white);}
 
 .st4 {
-	fill: var(--dark-blue);
+	fill: var(--blue);
 	stroke: var(--black);
 	stroke-width:5;
 	stroke-miterlimit:10;
@@ -181,7 +182,7 @@ a>img {
 .st6 {fill: var(--red);}
 
 .st7 {
-	fill: var(--dark-blue);
+	fill: var(--blue);
 	stroke: var(--black);
 	stroke-width:5;
 	stroke-miterlimit:10;
@@ -206,7 +207,7 @@ a>img {
 .st12 {fill: var(--red);}
 
 .st13 {
-	fill: var(--dark-blue);
+	fill: var(--blue);
 	stroke: var(--black);
 	stroke-width:5;
 	stroke-miterlimit:10;
@@ -288,7 +289,7 @@ a>img {
 
 .background-business-card {
 	padding: 2em;
-	background-color: var(--blue);
+	background-color: var(--light-blue);
 	height: 8em;
 	z-index: 1;
 }
@@ -325,9 +326,13 @@ img.camera {
 	margin-top: 1.2em;
 	padding: 1em 0;
 	width: 8em;
-	background-color: var(--dark-blue);
+	background-color: var(--blue);
 	border: none;
 	cursor: pointer;
+}
+
+.background-business-card>button:hover {
+	background-color: var(--dark-blue);
 }
 
 a {
