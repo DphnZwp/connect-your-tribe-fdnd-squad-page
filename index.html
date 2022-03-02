@@ -6,19 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squadpage FDND</title>
     <link rel="stylesheet" href="styles/index.css">
+		<!-- FONTS -->
+		<link href="http://fonts.cdnfonts.com/css/akrobat" rel="stylesheet">
     <script defer src="scripts/index.js" type="text/javascript"></script>
     <script defer src="scripts/carousel.js" type="text/javascript"></script>
-		<script defer src="scripts/business-cards.js" type="text/javascript"></script>
+		<script defer src="scripts/students-toggle.js" type="text/javascript"></script>
+		<script defer src="scripts/bussiness-cards-camera.js" type="text/javascript"></script>
 </head>
 <body>
-		<section id="logo">
-			<img src="assets/svgs/logo.svg" alt="logo">
-		</section>
-
+	<header>
+		<img id="logo" src="assets/svgs/logo.svg" alt="logo">
 		<article id="fetch__studentname">
 		</article>
-		<section>
+		<nav>
+			<a href="https://www.instagram.com/fdnd.nl/" target="_blank">
+				<img src="assets/instagram-icon.png">
+			</a>
+			<a href="https://github.com/fdnd" target="_blank">
+				<img src="assets/github-icon.png">
+			</a>
+		</nav>
+	</header>
+	<main>
 			<article id="carousel-container">
+				<h1>FDND Squadpage</h1>
+				<p>Klik op een student om een visitekaartje te zien.</p>
 				<button class="carousel__btn carousel__btn--left">
 					<img src="assets/svgs/left-btn.svg" alt="Row links">
 				</button>
@@ -3582,53 +3594,138 @@
 									<button class="carousel__indicator"></button>
 							 </article>
 			</article>
-		</section>
 
 			<section id="business-cards">
+				<h2>Visitekaartjes</h2>
 				<article class="business-card-dz">
-					DZ visitekaartje data uit api
+					<div class="background-business-card">
+						<h3 id="name-dz"></h3>
+						<p id="githubhandle-dz"></p>
+						<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-dz" alt="">
 				</article>
 				<article class="business-card-jr">
-					JR visitekaartje data uit api
+					<div class="background-business-card">
+						<h3 id="name-jr"></h3>
+						<p id="githubhandle-jr"></p>
+						<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-jr" alt="">
 				</article>
 				<article class="business-card-ys">
-					YS visitekaartje data uit api
+					<div class="background-business-card">
+						<h3 id="name-ys"></h3>
+						<p id="githubhandle-ys"></p>
+						<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-ys" alt="">
 				</article>
 				<article class="business-card-bd">
-					BD visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-bd"></h3>
+					<p id="githubhandle-bd"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-bd" alt="">
 				</article>
 				<!-- Second slide -->
 				<article class="business-card-jl">
-					JL visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-jl"></h3>
+					<p id="githubhandle-jl"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-jl" alt="">
 				</article>
 				<article class="business-card-dk">
-					DK visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-dk"></h3>
+					<p id="githubhandle-dk"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-dk" alt="">
 				</article>
 				<article class="business-card-sm">
-					SM visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-sm"></h3>
+					<p id="githubhandle-sm"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-sm" alt="">
 				</article>
 				<article class="business-card-bb">
-					BB visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-bb"></h3>
+					<p id="githubhandle-bb"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-bb" alt="">
 				</article>
 				<article class="business-card-fvb">
-					FVB visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-fvb"></h3>
+					<p id="githubhandle-fvb"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-fvb" alt="">
 				</article>
 				<!-- Third slide -->
 				<article class="business-card-cs">
-					CS visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-cs"></h3>
+					<p id="githubhandle-cs"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-cs" alt="">
 				</article>
 				<article class="business-card-mb">
-					MB visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-mb"></h3>
+					<p id="githubhandle-mb"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-mb" alt="">
 				</article>
 				<article class="business-card-aj">
-					AJ visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-aj"></h3>
+					<p id="githubhandle-aj"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-aj" alt="">
 				</article>
 				<article class="business-card-nb">
-					NB visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-nb"></h3>
+					<p id="githubhandle-nb"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+						<img id="avatar-nb" src="" alt="">
 				</article>
 				<article class="business-card-es">
-					ES visitekaartje data uit api
+					<div class="background-business-card">
+					<h3 id="name-es">Emona Santiago</h3>
+					<p id="githubhandle-es"></p>
+					<button><a href="#" target="_blank">Visitekaart</a></button>
+					</div>
+					<img class="camera" src="assets/svgs/camera.svg" alt="">
+					<img id="avatar-es" alt="">
 				</article>
 			</section>
+	</main>
 </body>
 </html>
