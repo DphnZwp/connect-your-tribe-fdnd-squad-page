@@ -1,3 +1,7 @@
+#logo {
+	width: 20em;
+}
+
 .student-name {
 	background-color:#F1ECFF ;
 	box-shadow:2px 3px 5px #9F9AD0 ;
@@ -5,15 +9,15 @@
 
 /* carousel slide show */
 #carousel-container {
+	margin-left: 5em;
 	position: relative;
-	height: 200px;
-	width: 300px;
-	margin: 0 auto;
+	height: 400px;
+	width: 500px;
 }
 
 .carousel_img {
-	height:200px;
-	width: 300px;
+	height:400px;
+	width: 500px;
 	object-fit: cover;
 	object-position: center;
 }
@@ -72,10 +76,9 @@
 /* carousel-nav */
 .carousel__nav{
 	display: flex;
-	/* flex-direction: row; */
 	justify-content:center;
 	background-color:#58E8AB;
-	width: 300px;
+	width: 500px;
 }
 
 .carousel__indicator{
