@@ -113,4 +113,5 @@ dotsNav.addEventListener('click', e => {
     // targetDot.classList.add('current-slide');
 
 
+  
 })
