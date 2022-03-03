@@ -120,7 +120,7 @@ a>img {
 }
 .carousel__btn:hover,
 .carousel__btn:focus {
-	background-color: rgba(0,0,0,.2);
+	background-color: var(--light-blue);
 }
 .carousel__btn:focus{
 	outline: 1px solid var(--black);
@@ -143,7 +143,7 @@ a>img {
 	border-radius: 50%;
 	width: 1em;
 	height: 1em;
-	background-color:rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 	margin:.3em;
 	cursor: pointer;
 	z-index: 2;
