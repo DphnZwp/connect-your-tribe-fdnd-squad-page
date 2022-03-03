@@ -89,13 +89,13 @@ fetch('https://tribe.api.fdnd.nl/v1/member')
     githubhandleFvb.innerHTML = `<strong>Github: </strong>${datafvb.githubHandle}`
     avatarFvb.src = datafvb.avatar
     nameCs.innerHTML = `${datacs.name} ${datacs.surname}`
-    githubhandleCs.innerHTML = `<strong>Github: </strong>${datacs.githubHandle}`
+    githubhandleCs.innerHTML = `${datacs.githubHandle}`
     avatarCs.src = datacs.avatar
     nameMb.innerHTML = `${datamb.name} ${datamb.surname}`
     githubhandleMb.innerHTML = `<strong>Github: </strong>${datamb.githubHandle}`
     avatarMb.src = datamb.avatar
     nameAj.innerHTML = `${dataaj.name} ${dataaj.surname}`
-    githubhandleAj.innerHTML = `<strong>Github: </strong>${dataaj.githubHandle}`
+    githubhandleAj.innerHTML = `${dataaj.githubHandle}`
     avatarAj.src = dataaj.avatar
     nameNb.innerHTML = `${datanb.name} ${datanb.surname}`
     githubhandleNb.innerHTML = `<strong>Github: </strong>${datanb.githubHandle}`
