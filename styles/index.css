@@ -74,15 +74,14 @@ a>img {
 
 /* carousel slide show */
 #carousel-container {
-	margin-top: 2.5em;
 	position: relative;
-	height: 350px;
-	width: 550px;
+	height: 400px;
+	width: 500px;
 }
 
-.carousel_img {
-	height:350px;
-	width: 550px;
+.slide>svg {
+	height:400px;
+	width: 500px;
 	object-fit: cover;
 	object-position: center;
 }
@@ -110,12 +109,13 @@ a>img {
 /* slide buttons */
 .carousel__btn{
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	scale: 1.5;
 	transform: translateY(-50%);
 	background-color: transparent;
 	border: 0;
 	cursor: pointer;
+	z-index: 2;
 }
 
 .carousel__btn:hover,
@@ -128,11 +128,11 @@ a>img {
 }
 
 .carousel__btn--left{
-	left: -40px;
+	left: -30px;
 }
 
 .carousel__btn--right{
-	right: -40px;
+	right: -30px;
 }
 
 /* carousel-nav */
@@ -140,7 +140,7 @@ a>img {
 	display: flex;
 	justify-content:center;
 	background-color: var(--cyan);
-	width: 550px;
+	width: 500px;
 }
 
 .carousel__indicator{
