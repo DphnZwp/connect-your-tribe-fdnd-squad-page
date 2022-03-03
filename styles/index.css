@@ -74,14 +74,15 @@ a>img {
 
 /* carousel slide show */
 #carousel-container {
+	margin-top: 2.5em;
 	position: relative;
-	height: 400px;
-	width: 500px;
+	height: 350px;
+	width: 550px;
 }
 
-.slide>svg {
-	height:400px;
-	width: 500px;
+.carousel_img {
+	height:350px;
+	width: 550px;
 	object-fit: cover;
 	object-position: center;
 }
@@ -139,7 +140,7 @@ a>img {
 	display: flex;
 	justify-content:center;
 	background-color: var(--cyan);
-	width: 500px;
+	width: 550px;
 }
 
 .carousel__indicator{
