@@ -37,15 +37,15 @@ Hieronder zijn commandlines van HTTPS en SSH die je kunt uitvoeren in de opdrach
 **Installeren met HTTPS**
 
 ```
-git clone https://github.com/DphnZwp/connect-your-tribe-fdnd-crud-form
-cd https://github.com/DphnZwp/connect-your-tribe-fdnd-crud-form.git
+git clone https://github.com/DphnZwp/connect-your-tribe-fdnd-squad-page
+cd https://github.com/DphnZwp/connect-your-tribe-fdnd-squad-page
 ```
 
 **Installeren met SSH**
 
 ```
-git@github.com:DphnZwp/connect-your-tribe-fdnd-crud-form.git
-cd connect-your-tribe-fdnd-crud-form.git
+git@github.com:DphnZwp/connect-your-tribe-fdnd-squad-page
+cd connect-your-tribe-fdnd-squad-page
 
 ```
 ## Bronnen
