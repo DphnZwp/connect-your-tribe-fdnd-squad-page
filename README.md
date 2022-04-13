@@ -1,7 +1,7 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Squadpage FDND
+Een squadpage met data van de tribe api.
 
 ## Inhoudsopgave
 
@@ -13,18 +13,48 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Het doel is om een squadpage te maken met data van de tribe api. 
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-## Installatie
+### Tools gebruikt:
+- 💻 Visual Studio Code
+- ✍️ Adobe Illustrator
+- ✍️ Potlood, Stift en Papier
 
-## Gebruik
+### Code skills
+- 💀 HTML5
+- 🧍 CSS3
+- ⚽ JavaScript
 
+## Installatie & Gebruik
+1. Clone of download deze respository.
+2. Ga naar de root directory van het project.
+3. Open het index.html bestand. Hier kan je de eerste pagina zien van de website.
+
+Hieronder zijn commandlines van HTTPS en SSH die je kunt uitvoeren in de opdrachtprompt om het project te clonen en om naar de root directory te gaan.
+
+**Installeren met HTTPS**
+
+```
+git clone https://github.com/DphnZwp/connect-your-tribe-fdnd-crud-form
+cd https://github.com/DphnZwp/connect-your-tribe-fdnd-crud-form.git
+```
+
+**Installeren met SSH**
+
+```
+git@github.com:DphnZwp/connect-your-tribe-fdnd-crud-form.git
+cd connect-your-tribe-fdnd-crud-form.git
+
+```
 ## Bronnen
+- [https://ejs.co/](https://ejs.co/)
+- [https://codeforgeek.com/handle-get-post-request-express-4/](https://codeforgeek.com/handle-get-post-request-express-4/)
+- [https://www.javatpoint.com/expressjs-post](https://www.javatpoint.com/expressjs-post)
+
+### API
+- [https://codingthecurbs.api.fdnd.nl/v1/smartzone](https://codingthecurbs.api.fdnd.nl/v1/smartzone)
 
 ## Licentie
 
