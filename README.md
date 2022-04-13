@@ -50,9 +50,6 @@ cd connect-your-tribe-fdnd-squad-page
 ```
 ## Bronnen
 
-### API
-- [https://codingthecurbs.api.fdnd.nl/v1/smartzone](https://codingthecurbs.api.fdnd.nl/v1/smartzone)
-
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
