@@ -2,7 +2,9 @@
 
 # Squadpage FDND
 Een squadpage met data van de tribe api.
+
 [🌐 https://daphnecodingthecurbs.student.fdnd.nl](https://daphnecodingthecurbs.student.fdnd.nl)
+
 ![screencapture-squadpagecamerabank-student-fdnd-nl-2022-04-14-10_38_49](https://user-images.githubusercontent.com/69635977/163347656-ee7c270c-7562-4549-9246-e434132b7343.png)
 
 ## Inhoudsopgave
